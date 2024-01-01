@@ -1,3 +1,20 @@
+:root {
+    --page-font-family: Arial, Helvetica, sans-serif;
+    --page-font-color: #7f676d
+}
+
 header {
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px;
+    color: var(--page-font-color);
+    text-align: left;
+    background-color: #F7D3DB;
+    font-family: var(--page-font-family);
+}
+
+nav {
+    font-family: var(--page-font-family);
+    color: var(--page-font-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
