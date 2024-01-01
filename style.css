@@ -3,18 +3,20 @@
     --page-font-color: #7f676d
 }
 
+.nav-list {
+    font-family: var(--page-font-family);
+    color: var(--page-font-color);
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
 header {
-    padding: 60px;
+    padding: 30px;
     color: var(--page-font-color);
     text-align: left;
     background-color: #F7D3DB;
     font-family: var(--page-font-family);
 }
 
-nav {
-    font-family: var(--page-font-family);
-    color: var(--page-font-color);
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-}
