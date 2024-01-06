@@ -3,14 +3,23 @@
     --page-font-color: #7f676d
 }
 
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
+
 .nav-list {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
     font-family: var(--page-font-family);
     color: var(--page-font-color);
     text-align: right;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    list-style-type: none;
 }
-
 
 header {
     padding: 30px;
@@ -20,3 +29,6 @@ header {
     font-family: var(--page-font-family);
 }
 
+.float-left {
+    width: 200px;
+}
