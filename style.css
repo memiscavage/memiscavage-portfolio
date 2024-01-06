@@ -9,24 +9,36 @@
     margin: 0;
 }
 
-.nav-list {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: var(--page-font-family);
-    color: var(--page-font-color);
-    text-align: right;
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-}
-
 header {
     padding: 30px;
     color: var(--page-font-color);
     text-align: left;
     background-color: #F7D3DB;
     font-family: var(--page-font-family);
+    font-size: 25px;
+}
+
+.nav-list {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: var(--page-font-family);
+    color: var(--page-font-color);
+    font-size: 20px;
+    display: flex;
+    text-align: right;
+    flex-direction: row;
+    list-style-type: none;
+    padding-inline-start: 20px;
+}
+
+body {
+    background-color: #F9F2F4;
+}
+
+.about-me {
+    font-family: var(--page-font-family);
+    color: var(--page-font-color);
 }
 
 .float-left {
