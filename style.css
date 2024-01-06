@@ -9,17 +9,19 @@
     margin: 0;
 }
 
-header {
+.header {
     padding: 30px;
     color: var(--page-font-color);
-    text-align: left;
     background-color: #F7D3DB;
     font-family: var(--page-font-family);
-    font-size: 25px;
 }
 
-.nav-list {
-    padding-top: 15px;
+.header h1 {
+    display: inline-block;
+    font-size: 35px;
+}
+
+.header div ul {
     margin-right: 20px;
     float: right;
     font-family: var(--page-font-family);
@@ -30,6 +32,11 @@ header {
     flex-direction: row;
     list-style-type: none;
     padding-inline-start: 20px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
 
 body {
