@@ -52,9 +52,6 @@ header h2 {
     color: var(--page-font-color);
 }
 
-.main div p {
-    display: block    
-}
 
 .float-left {
     width: 200px;
