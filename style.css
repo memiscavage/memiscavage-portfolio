@@ -74,14 +74,24 @@ header h2 {
     float: left;
 }
 
-.debugging-container {
-    border: #7f676d;
-    border-style: double;
-    box-shadow: #7F7C7D;
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.work p {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
 }
 
 .portfolio-container {
     width: var(--page-photo-width);
     height: var(--page-photo-height);
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
 }
-
