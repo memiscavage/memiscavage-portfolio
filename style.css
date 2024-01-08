@@ -24,7 +24,7 @@
     font-size: 35px;
 }
 
-.header div ul {
+.header ul {
     float: inline-end;
     font-family: var(--page-font-family);
     color: var(--page-font-color);
@@ -37,7 +37,7 @@
     padding-inline-start: 20px;
 }
 
-.header div ul li {
+.header ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -46,8 +46,10 @@ body {
     background-color: #F9F2F4;
 }
 
-header h2 {
+h2 {
     float: left;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main {
@@ -88,10 +90,33 @@ header h2 {
     float: left;
 }
 
-.portfolio-container {
+.portfolio-container img {
     width: var(--page-photo-width);
     height: var(--page-photo-height);
     margin-left: 25px;
     display: flex;
     flex-wrap: wrap;
 }
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contact-me ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main {
+        flex-direction: column;
+    }    
+}
+  
