@@ -28,4 +28,4 @@ THEN I am taken to that deployed application\
 WHEN I resize the page or view the site on various screens and devices\
 THEN I am presented with a responsive layout that adapts to my viewport
 
-(assets/_C__Users_the_m_OneDrive_Desktop_Bootcamp_Challenge-2_memiscavage-portfolio_index.html.png)
+\![Alt text](assets/_C__Users_the_m_OneDrive_Desktop_Bootcamp_Challenge-2_memiscavage-portfolio_index.html.png)
