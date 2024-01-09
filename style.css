@@ -59,7 +59,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: left;
+    margin-bottom: 25px;
 }
 
 .self {
@@ -72,13 +73,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     float: left;
+    margin-left: 25px;
 }
 
 .work {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
+    justify-content: left;
+    margin-bottom: 25px;
 }
 
 .work p {
@@ -86,12 +88,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     float: left;
+    margin-left: 75px;
 }
 
 .portfolio-container img {
-    width: var(--page-photo-width);
-    height: var(--page-photo-height);
-    margin-left: 25px;
+    width: 200px;
+    margin-left: 75px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -127,5 +130,9 @@ body {
     main {
         flex-direction: column;
     }    
+    .work {
+        display: flex;
+        flex-direction: column;
+    }
 }
   
