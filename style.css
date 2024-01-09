@@ -36,7 +36,6 @@
 }
 
 .navList {
-    
     margin-left: 25px;
 }
 
@@ -44,10 +43,11 @@ body {
     background-color: #F9F2F4;
 }
 
-h2 {
+.contentHeader {
     float: left;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 5px;
 }
 
 .main {
@@ -103,9 +103,20 @@ h2 {
     justify-content: center;
 }
 
-.contact-me ul li {
-    display: inline-block;
+.contactBar {
+    font-size: 20px;
+    text-align: right;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-inline-start: 20px;
+}
+
+.contactList {
+    display: flex;
+    justify-content: space-evenly;
     margin-left: 25px;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 768px) {
